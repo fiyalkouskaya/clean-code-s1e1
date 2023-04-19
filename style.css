@@ -140,7 +140,7 @@ ul li.editMode input[type=text] {
 ul li.editMode label {
     display:none;
 }
-@media (max-width:768px) {
+@media screen and (max-width: 768px) {
   .header { 
     text-align: center;
   }
