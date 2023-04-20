@@ -23,8 +23,14 @@
 }
 .task {
     width: 56%;
+    padding-left: 10px;
+    margin: 0;
+
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
+    box-sizing: border-box;
+
+    font-size: 18px;
 }
 .task-row-wrapper {
     display: flex;
@@ -94,12 +100,6 @@ li > * {
 li > input[type="checkbox"] {
     margin: 0 10px;
 }
-li > label {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
-}
 li >    input[type="text"] {
     width: 226px
 }
@@ -128,8 +128,8 @@ ul li.editMode input[type=text] {
     width:224px
 }
 
-ul li.editMode label {
-    display:none;
+ul .editMode .task {
+    display: none;
 }
 @media screen and (max-width: 768px) {
   .header { 
