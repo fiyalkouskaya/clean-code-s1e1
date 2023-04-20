@@ -39,9 +39,6 @@ ul {
     margin: 0;
     padding: 0px;
 }
-input, .button{
-    outline: none;
-}
 .button {
     background: none;
     border: 0px;
@@ -90,10 +87,6 @@ input[type="text"]:focus {
     justify-content: space-between;
     align-items: center;
 }
-li > * {
-    vertical-align: middle;
-}
-
 li > input[type="checkbox"] {
     margin: 0 10px;
 }
