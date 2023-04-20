@@ -21,7 +21,7 @@
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.task-title {
     width: 56%;
     padding-left: 10px;
     margin: 0;
@@ -61,7 +61,8 @@ ul {
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+.task {
+    width: 440px;
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -73,7 +74,7 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+.task:focus {
     color: #333;
 }
 
@@ -87,10 +88,10 @@ input[type="text"]:focus {
     justify-content: space-between;
     align-items: center;
 }
-li > input[type="checkbox"] {
+.checkbox {
     margin: 0 10px;
 }
-li >    input[type="text"] {
+.edit-task {
     width: 226px
 }
 .remove-img {
@@ -103,22 +104,22 @@ li >    input[type="text"] {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks .task-title {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.edit-task {
     display: none;
 }
 
-ul li.editMode input[type=text] {
+.editMode .edit-task {
     display: inline-block;
-    width: 224px;
+    width: 330px;
 }
 
-ul .editMode .task {
+.editMode .task-title {
     display: none;
 }
 @media screen and (max-width: 768px) {
