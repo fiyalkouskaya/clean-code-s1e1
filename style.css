@@ -36,10 +36,10 @@ ul {
 li, h3 {
     list-style:none;
 }
-input,button{
+input, .button{
     outline:none;
 }
-button {
+.button {
     background: none;
     border: 0px;
     color: #888;
@@ -48,7 +48,7 @@ button {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-button:hover {
+.button:hover {
     color: #3a3A3a;
 }
 /* Heading */
@@ -103,12 +103,12 @@ li > label {
 li >    input[type="text"] {
     width: 226px
 }
-button.delete img {
+.delete-button img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete-button img:hover {
     transform: rotateZ(0);
 }
 
