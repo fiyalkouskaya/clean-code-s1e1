@@ -32,9 +32,6 @@
 
     font-size: 18px;
 }
-.task-row-wrapper {
-    display: flex;
-}
 ul {
     margin: 0;
     padding: 0px;
@@ -87,6 +84,9 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.add .row_wrapper {
+    border-bottom: none;
 }
 .checkbox {
     margin: 0 10px;
