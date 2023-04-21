@@ -114,12 +114,12 @@ ul {
     display: none;
 }
 
-.editMode .edit-task {
+.edit-mode .edit-task {
     display: inline-block;
     width: 330px;
 }
 
-.editMode .task-title {
+.edit-mode .task-title {
     display: none;
 }
 @media screen and (max-width: 768px) {
